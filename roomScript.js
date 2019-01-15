@@ -1,0 +1,3 @@
+function nodeClicked() {
+  alert("clicked!!");
+}
