@@ -3,6 +3,6 @@ function nodeClicked() {
 }
 
 function submitted() {
-  alert(document.querySelector('input[name="startTime"]:checked').value);
-  alert(document.querySelector('input[name="endTime"]:checked').value)
+  alert(document.querySelector('select[name="startTime"]:checked').value);
+  alert(document.querySelector('select[name="endTime"]:checked').value)
 }

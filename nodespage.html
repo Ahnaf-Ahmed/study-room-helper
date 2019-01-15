@@ -17,17 +17,23 @@
 	<div class=newnode>newnode
 		<form method="POST" action="nodespage.html">
 			<label for="startTime">Start: <br>
-				<input type="radio" name="startTime" value="10:00"> 10:00<br>
-				<input type="radio" name="startTime" value="11:00"> 11:00<br>
-				<input type="radio" name="startTime" value="12:00"> 12:00<br>
-				<input type="radio" name="startTime" value="13:00"> 13:00<br>					
+				<select id="ddlViewBy">
+					<option selected disabled hidden>Start time</option>
+					<option name="startTime" value="10:00">10:00</option>
+					<option name="startTime" value="11:00">11:00</option>
+					<option name="startTime" value="12:00">12:00</option>
+					<option name="startTime" value="13:00">13:00</option>
+				</select>					
 			</label><br><br>
 			
 			<label for="endTime">End: <br>
-				<input type="radio" name="endTime" value="10:00"> 10:00<br>
-				<input type="radio" name="endTime" value="11:00"> 11:00<br>
-				<input type="radio" name="endTime" value="12:00"> 12:00<br>
-				<input type="radio" name="endTime" value="13:00"> 13:00<br>					
+				<select id="ddlViewBy">
+					<option selected disabled hidden>End time</option>
+					<option name="startTime" value="10:00">10:00</option>
+					<option name="startTime" value="11:00">11:00</option>
+					<option name="startTime" value="12:00">12:00</option>
+					<option name="startTime" value="13:00">13:00</option>
+				</select>								
 			</label>
 			<input type="submit" onclick="submitted()">
 		</form>
