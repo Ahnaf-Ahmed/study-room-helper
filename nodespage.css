@@ -12,10 +12,27 @@ html, body{
 	width: 100%;
 	align-content: space-around;
 	border: 1px solid blue;
+	flex-direction: column;
 }
 .newnode, .createnode{
-	width: 100%;;
+	width: 30%;
 	margin: auto;
 	justify-content: center;
+	flex-direction: column;
+	
 	border: 1px solid red;
+}
+.delete{
+	border: 1px solid green;
+}
+.space{
+	width: 100%;
+	flex-direction: row-reverse;
+	border: 1px solid green;
+}
+input[list=times]{
+text-align: center;
+width: 90%;
+
+box-sizing: border-box;
 }
